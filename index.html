@@ -8,14 +8,26 @@
 </head>
 <body>
     <header>
-        <h1>Farming Industry Time Management System</h1>
-        <p>Development Environment</p>
+        <h1>Farming Industry Time Management</h1>
+        <p class="env-label">Development Environment</p>
     </header>
 
     <main>
-        <button id="greetBtn">Click Me</button>
-        <p id="message"></p>
+        <section class="dashboard">
+            <h2>Task Dashboard</h2>
+            <div id="task-list" class="task-list">
+                <!-- Tasks will appear here -->
+            </div>
+            <div class="task-input">
+                <input type="text" id="taskInput" placeholder="Enter new task..." />
+                <button id="addTaskBtn">Add Task</button>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <p>Farming Industry Time Management System © 2025</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
