@@ -1,0 +1,110 @@
+ body {
+      background-color: #f9f9f9;
+    }
+
+    .navbar-custom {
+      background-color: #f9a825;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      padding: 0.5rem 1rem;
+    }
+
+    .navbar-icon {
+      outline: none;
+      border: none;
+    }
+
+    .bi-list::before {
+      color: #ffffff;
+}
+
+    .bi-bell::before {
+     color: #ffffff;
+}
+
+    .container-box {
+      max-width: 95%;
+      margin: 80px auto 50px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 2px solid #f9a825;
+      margin: 0 auto;
+      display: block;
+    }
+
+    .staff-title {
+      color: #f9a825;
+    }
+
+
+    .col-personel-detail {
+        text-align: left;
+    }
+
+
+    .status-box {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      color: #333;
+      margin: 20px 0;
+      box-shadow: 0 0 10.7825px rgba(0, 0, 0, .12);
+      border-radius: 6px;
+    }
+
+    .status-box .col {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .status-box-title {
+      color: #f9a825;
+    }
+
+    .status-box-text {
+      font-size: 19px;
+      font-weight: 500;
+    }
+
+    .clock-buttons {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    .clock-buttons button {
+      width: 100%;
+      padding: 12px 0;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+ @media only screen and (max-width: 991px) {
+.personel-information-wrapper-desktop {
+    display: none;
+}
+
+}
+
+ @media only screen and (min-width: 992px) {
+    .personel-information-wrapper-mobile {
+        display: none;
+    }
+
+.staff-profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #f9a825;
+    display: block;
+}
+}
