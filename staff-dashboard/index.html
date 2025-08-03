@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farmer Time Management</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"> 
+
+
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light navbar-custom fixed-top">
+    <div class="container-fluid">
+      <button class="btn me-2 navbar-icon" type="button">
+           <i class="bi bi-list fs-5"></i>
+      </button>
+      <div class="ms-auto d-flex align-items-center gap-3">
+        <i class="bi bi-bell fs-5"></i>
+        
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container-box text-center">
+
+    <div class="personel-information-wrapper-mobile">
+    <img src="./assets/image/farmer-profile-picture.jpg" alt="Worker" class="profile-img">
+    <h2 class="staff-title">Peter Parker</h2>
+    <p class="staff-text">Agricultural Worker</p>
+    </div>
+
+  <!--  <div class="personel-information-wrapper-desktop"> 
+      <div class="row">
+        <div class="col-personel-image">
+           <img class="staff-profile-picture" src="/assets/image/farmer-profile-picture.jpg" alt="Worker" class="profile-img">
+        </div>
+        <div class="col-personel-detail">
+          <h2 class="staff-title">Peter Parker</h2>
+          <p class="staff-text">Agricultural Worker</p>
+          <p class="staff-text">peterparker@spiderman.com</p>
+          <p class="staff-text">Adelaide, Australia</p>
+          <p class="staff-text">01.01.2000</p>
+        </div>
+      </div>
+    </div>
+-->
+
+<div class="personel-information-wrapper-desktop">
+  <div class="row align-items-start">
+    <!-- Sol: Fotoğraf -->
+    <div class="col-auto">
+      <img class="staff-profile-picture" src="/assets/image/farmer-profile-picture.jpg" alt="Worker">
+    </div>
+
+    <!-- Sağ: Personel Detay -->
+    <div class="col col-personel-detail">
+      <h2 class="staff-title">Peter Parker</h2>
+      <p class="staff-text">Agricultural Worker</p>
+      <p class="staff-text">peterparker@spiderman.com</p>
+      <p class="staff-text">Adelaide, Australia</p>
+      <p class="staff-text">01.01.2000</p>
+    </div>
+  </div>
+</div>
+
+
+
+    <div class="status-box">
+      <div class="row">
+        <div class="col">
+          <div class="status-box-title">Status</div>
+          <div class="status-box-text">Working</div>
+        </div>
+        <div class="col">
+          <div class="status-box-title">Clock In</div>
+          <div class="status-box-text">7:19 AM</div>
+        </div>
+        <div class="col">
+          <div class="status-box-title">Duration</div>
+          <div class="status-box-text">8h 13m</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="clock-buttons">
+      <button class="btn btn-success">Clock In</button>
+      <button class="btn btn-danger">Clock Out</button>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
